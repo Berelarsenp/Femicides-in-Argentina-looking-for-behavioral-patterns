@@ -1,1 +1,8 @@
 jupyter==1.0.0
+
+'''
+
+The project is running on python3
+Django is already installed
+
+'''
