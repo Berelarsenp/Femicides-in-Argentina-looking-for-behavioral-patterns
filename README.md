@@ -16,3 +16,15 @@ The final idea is to write about the process and make some convincing conclusion
 
 1. Show accurate information about femicides in Argentina using government databases
 1. This information will update every time the government updates de csv
+
+## Analizing dataset
+
+The data is located in [this CSV file](registro-de-femicidios-2018-04-13.csv).
+
+* number: case number (continuous).
+* age: victim's age (continuous).
+* gender_identity: victim's gender identity: mujer, transgenero, trans femenina, hombre, travesti, mujer lesbiana (string).
+* victim_type: if the victim is the real objective or a related person of the victim: principal, vinculado (string).
+* province: where the femicide happen: Buenos Aires, Chaco, Tucuman, Neuquen, Salta, Mendoza, Córdoba, Jujuy, Ciudad de Buenos Aires, Santa Fe, Corrientes, Chubut, Misiones, Santa Cruz, San Luis, Santiago del Estero, La Rioja, Catamarca, Formosa, Entre Rios, San Juan, Rio Negro, La Pampa,Tierra del Fuego (string).
+* murder_type: how the victim was killed. Could be one single value or a combination: quemaduras, empalamiento, acuchillamiento, golpes, abuso sexual, asfixia, estrangulamiento, atropellamiento, disparo de bala, apuñalamiento, degollamiento, ahorcamiento, descuartizamiento, desbarrancamiento, otros (string).
+* date: when the femicide happen (date).
